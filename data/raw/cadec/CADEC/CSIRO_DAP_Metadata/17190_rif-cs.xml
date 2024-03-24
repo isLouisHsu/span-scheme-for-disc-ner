@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/home/orca/schemata/registryObjects.xsd">
+  <registryObject group="Commonwealth Scientific and Industrial Research Organisation">
+    <key>102.100.100/19745</key>
+    <originatingSource>https://data.csiro.au/dap/</originatingSource>
+    <collection type="dataset" dateAccessioned="2022-01-20T22:24:21+11:00">
+      <identifier type="local">102.100.100/19745</identifier>
+      <identifier type="doi">10.4225/08/570FB102BDAD2</identifier>
+      <name type="primary">
+        <namePart>CADEC</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://hdl.handle.net/102.100.100/19745?index=1</value>
+          </electronic>
+        </address>
+      </location>
+      <coverage>
+        <temporal>
+          <date type="dateFrom" dateFormat="W3CDTF">2001-08-18</date>
+          <date type="dateTo" dateFormat="W3CDTF">2013-10-18</date>
+        </temporal>
+      </coverage>
+      <citationInfo>
+        <citationMetadata>
+          <identifier type="doi">10.4225/08/570FB102BDAD2</identifier>
+          <title>CADEC</title>
+          <version>v3</version>
+          <publisher>Commonwealth Scientific and Industrial Research Organisation (CSIRO)</publisher>
+          <contributor seq="1">
+            <namePart type="family">Karimi</namePart>
+            <namePart type="given">Sarvnaz</namePart>
+          </contributor>
+          <contributor seq="2">
+            <namePart type="family">Metke Jimenez</namePart>
+            <namePart type="given">Alejandro</namePart>
+          </contributor>
+          <contributor seq="3">
+            <namePart type="family">Kemp</namePart>
+            <namePart type="given">Madonna</namePart>
+          </contributor>
+          <contributor seq="4">
+            <namePart type="family">Wang</namePart>
+            <namePart type="given">Chen</namePart>
+          </contributor>
+          <date type="publicationDate">2016-04-15</date>
+        </citationMetadata>
+      </citationInfo>
+      <relatedObject>
+        <key>csiro:5897da27-9807-4d46-945e-e8e6fe2a1d4f</key>
+        <relation type="hasPrincipalInvestigator" />
+      </relatedObject>
+      <relatedObject>
+        <key>csiro:R-03269_IRP</key>
+        <relation type="hasAssociationWith" />
+      </relatedObject>
+      <relatedObject>
+        <key>csiro:PartyGroup</key>
+        <relation type="isManagedBy" />
+      </relatedObject>
+      <subject type="local">Adverse Drug Reaction, Medical Forum, SNOMED CT, MedDRA, Annotated Corpus, Drug Safety, Social Media, Information Extraction</subject>
+      <subject type="anzsrc-for">080702</subject>
+      <subject type="anzsrc-for">080107</subject>
+      <description type="brief">CSIRO Adverse Drug Event Corpus (Cadec) is a rich annotated corpus of medical forum posts on patient reported Adverse Drug Events (ADEs). This corpus is useful for those studies in the area of information extraction, or more generically text mining, from social media to detect possible adverse drug reactions from direct patient reports.</description>
+      <description type="lineage">The corpus is sourced from posts on a medical forum called AskaPatient. Annotations contain mentions of concepts such as drugs, adverse events, symptoms, and diseases linked to their corresponding concepts in controlled vocabularies, i.e., SNOMED Clinical Terms, AMT and MedDRA. The quality of the annotations is ensured by annotation guidelines, multi-stage annotations, measuring inter-annotator agreement, and final review of the annotations by a clinical terminologist.</description>
+      <rights>
+        <rightsStatement>All Rights (including copyright) CSIRO 2015.</rightsStatement>
+        <licence type="CSIRO Data Licence" rightsUri="https://confluence.csiro.au/x/4QAYVQ">CSIRO Data Licence</licence>
+        <accessRights type="open">Data is accessible online and may be reused in accordance with licence conditions</accessRights>
+      </rights>
+    </collection>
+  </registryObject>
+</registryObjects>
+
